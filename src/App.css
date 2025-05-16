@@ -1,6 +1,6 @@
 
 @import "tailwindcss";
-.Navbar{
+/* .Navbar{
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -34,20 +34,20 @@
 .navlinks li a:hover {
   background-color: #575757;
   border-radius: 4px;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
  
- :root {
-  background-color: #181A1C;
- }
+ /* :root {
+  /* background-color: #181A1C;
+ } */
 
   }
 
-.card {
+/* .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
-}
+} */
