@@ -1,20 +1,26 @@
 
 @import "tailwindcss";
-
-/* .Navbar{
+.Navbar{
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
-  background-color: #333; 
+  background-color: #181A1C; 
   padding: 10px ;
 }
 
 .navlinks {
   list-style: none;
   display: flex;
-  gap: 20px;
-  margin: 0;
+  gap: 30px;
+  margin-left: 75%;
   padding: 0;
+}
+
+.name{
+  color: white;
+  font-family: Times New Roman, Times, serif;
+  font-size: 20px;
+  
 }
 
 .navlinks li a {
@@ -28,11 +34,13 @@
 .navlinks li a:hover {
   background-color: #575757;
   border-radius: 4px;
-} */
+}
 
 @media (prefers-reduced-motion: no-preference) {
  
- 
+ :root {
+  background-color: #181A1C;
+ }
 
   }
 
