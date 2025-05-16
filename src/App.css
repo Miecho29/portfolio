@@ -1,0 +1,45 @@
+
+@import "tailwindcss";
+
+/* .Navbar{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333; 
+  padding: 10px ;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks li a {
+  color: #AAAAAA;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s;
+  font-family: Times New Roman, Times, serif;
+}
+
+.navlinks li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+ 
+
+  }
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
