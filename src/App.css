@@ -36,18 +36,32 @@
   border-radius: 4px;
 } */
 
-@media (prefers-reduced-motion: no-preference) {
- 
- /* :root {
-  /* background-color: #181A1C;
- } */
+/* Add this to your global styles (tailwind.css or main.css) */
 
+@keyframes popUpFromBelowToAbove {
+  0% {
+    transform: translateY(30px); /* Starts below the viewport */
+    opacity: 0; /* Start hidden */
   }
-
-/* .card {
-  padding: 2em;
+  60% {
+    transform: translateY(-20px); /* Moves past the original position, above */
+    opacity: 1; /* Fully visible */
+  }
+  100% {
+    transform: translateY(0); /* Settles into its final position */
+  }
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.animate-pop-up-above {
+  animation: popUpFromBelowToAbove 0.8s ease-out forwards;
+}
+
+
+
+
+
+
+
+
+
+
