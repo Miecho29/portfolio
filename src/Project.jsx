@@ -16,13 +16,21 @@ function Project(){
     </div>
 
       
-<a href="#" class="flex flex-col items-center bg-[#181A1C] border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white ">Data Engineer Intern At Apteum Mar 2024 - July 2025</h5>
-        <p class="mb-3 font-normal text-white">Focused on data maintenance and quality assurance, create a documentation of all issues found on the tool and do maintenance,fixingbugs,implement new function to improve the tool using  PHP and Laravel.</p>
-    </div>
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="apteum.jpg" alt="Apteum"></img>
+<a href="#" class="flex flex-col md:flex-row bg-white border border-gray-200 rounded-lg shadow-md max-w-3xl hover:shadow-lg transition">
+  
+  <img class="object-cover w-full md:w-64 h-60 md:h-auto rounded-t-lg md:rounded-none md:rounded-s-lg" src="apteum.jpg" alt="Apteum" />
+
+
+  <div class="flex flex-col justify-center p-6">
+    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">
+      Data Engineer Intern At Apteum (Mar 2024 - July 2025)
+    </h5><br></br>
+    <p class="text-gray-700">
+      Focused on data maintenance and quality assurance. Created documentation of all issues found in the tool, performed maintenance, fixed bugs, and implemented new functions to improve the tool using PHP and Laravel.
+    </p>
+  </div>
 </a>
+
 </div>
     )
 }
