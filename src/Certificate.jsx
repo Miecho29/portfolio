@@ -15,14 +15,24 @@ const Certificate = () => {
          </div>
        </div>
 
-        <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    {/* <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/docs/images/blog/image-4.jpg" alt=""> */}
-    <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Hour of Code</h5>
-        {/* <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"></p> */}
-    </div>
-</a>
-
+       <div class=" mt-12 ml-16 relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl">
+  <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+    <img
+      src="Accenture.jpg"
+      alt="Accenture"
+      class="h-full w-full rounded-md md:rounded-lg object-cover"
+    />
+  </div>
+  <div class="p-6">
+    <div class="mb-5 rounded-full bg-[#A100FF] py-0.5 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">ACCENTURE</div>
+    <h4 class="mb-2 text-slate-800 text-xl font-semibold">
+     The Hour Of Code (Dec 2017)
+    </h4>
+    <p class="mb-8 text-slate-600 leading-normal font-light">
+      A Program for ICT student to learn the basics of programming. The program was held at Accenture, IT Park Cebu, Philippines. The program was a 1-day event where students learned the basics of programming using code blocks.
+    </p>
+  </div>
+</div>
 
       </div>
   )

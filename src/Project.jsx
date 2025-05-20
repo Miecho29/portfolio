@@ -16,20 +16,67 @@ function Project(){
     </div>
 
       
-<a href="#" class="flex flex-col md:flex-row bg-white border border-gray-200 rounded-lg shadow-md max-w-3xl hover:shadow-lg transition">
-  
-  <img class="object-cover w-full md:w-64 h-60 md:h-auto rounded-t-lg md:rounded-none md:rounded-s-lg" src="apteum.jpg" alt="Apteum" />
-
-
-  <div class="flex flex-col justify-center p-6">
-    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">
+    <div class=" mt-12 ml-16 relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl">
+  <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+    <img
+      src="apteum.jpg"
+      alt="Apteum"
+      class="h-full w-full rounded-md md:rounded-lg object-cover"
+    />
+  </div>
+  <div class="p-6">
+    <div class="mb-5 rounded-full bg-teal-600 py-0.5 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">INTERNSHIP</div>
+    <h4 class="mb-2 text-slate-800 text-xl font-semibold">
       Data Engineer Intern At Apteum (Mar 2024 - July 2025)
-    </h5><br></br>
-    <p class="text-gray-700">
+    </h4>
+    <p class="mb-8 text-slate-600 leading-normal font-light">
       Focused on data maintenance and quality assurance. Created documentation of all issues found in the tool, performed maintenance, fixed bugs, and implemented new functions to improve the tool using PHP and Laravel.
     </p>
   </div>
-</a>
+</div>
+
+
+<div class="ml-270 relative flex flex-col md:flex-row w-full my-10 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl mt-[-385px]">
+
+  <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+    <img
+      src="QRPH.jpg"
+      alt="Apteum"
+      class="h-full w-full rounded-md md:rounded-lg object-cover"
+    />
+  </div>
+  <div class="p-6">
+    <div class="mb-5 rounded-full bg-[#007bff] py-0.5 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">WEALTHBANK</div>
+    <h4 class="mb-2 text-slate-800 text-xl font-semibold">
+      QRPH 
+    </h4>
+    <p class="mb-8 text-slate-600 leading-normal font-light">
+      Focused on data maintenance and quality assurance. Created documentation of all issues found in the tool, performed maintenance, fixed bugs, and implemented new functions to improve the tool using PHP and Laravel.
+    </p>
+  </div>
+</div>
+
+<div class=" mt-12 ml-16 relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl">
+  <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+    <img
+      src="apteum.jpg"
+      alt="Apteum"
+      class="h-full w-full rounded-md md:rounded-lg object-cover"
+    />
+  </div>
+  <div class="p-6">
+    <div class="mb-5 rounded-full bg-[#007bff] py-0.5 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">WEALTHBANK</div>
+    <h4 class="mb-2 text-slate-800 text-xl font-semibold">
+      Data Engineer Intern At Apteum (Mar 2024 - July 2025)
+    </h4>
+    <p class="mb-8 text-slate-600 leading-normal font-light">
+      Focused on data maintenance and quality assurance. Created documentation of all issues found in the tool, performed maintenance, fixed bugs, and implemented new functions to improve the tool using PHP and Laravel.
+    </p>
+  </div>
+</div>
+
+
+
 
 </div>
     )
