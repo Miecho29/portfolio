@@ -14,30 +14,8 @@ const Resume= () => {
           <Link to="/Certificate" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Certificates</Link>
         </div>
       </div>
-
- 
-        <div className="flex flex-col-reverse md:flex-row flex-1 items-center justify-center px-4 md:px-8 space-y-8 md:space-y-0 animate-pop-up-above">
-          <div className="max-w-xl text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold mb-4">Hi, I’m Miko<span className="text-white">.</span></h1>
-            <p className=" text-base md:text-lg text-gray-300 mb-6">
-              A Hard working Fresh Graduate Software Developer and QA from Cebu City, Philippines. I specialize at React JS, Tailwind and Nest JS.
-            </p>
-            <Link
-              to="/project"
-              className="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-full transition inline-block"
-            >
-              My Projects
-            </Link>
-          </div>
-
-          <div className="w-full md:w-auto flex justify-center">
-            <img
-              src="/1000001470.png"
-              alt="Miko"
-              className="rounded-b-full h-60 md:h-80 object-cover" />
-          </div>
-        </div>
-
+      
+      <p className="" >WORK IN PROGRESS</p>
 
       </div>
   )
