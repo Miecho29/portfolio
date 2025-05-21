@@ -51,27 +51,39 @@ function Project() {
         </div>
 
         <div className="relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl">
-          <div className="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
-            <img
-              src="QRPH.jpg"
-              alt="QRPH"
-              className="h-full w-full rounded-md md:rounded-lg object-cover"
-            />
-          </div>
-          <div className="p-4">
-            <p className="text-slate-600 text-xl font-light ml-75">
-              February 18, 2025
-            </p>
-            <div className="mb-5 rounded-full bg-[#007bff] py-1 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">WEALTHBANK</div>
-            <h4 className="mb-2 text-slate-800 text-xl font-semibold">
-              QRPH 
-            </h4>
-            <p className="mb-8 text-slate-600 leading-normal font-light">
-              As part of the QRPH team, my primary role is to provide backend support by monitoring system logs and ensuring that all data transmitted from partner banks to WealthBank is accurate, secure, and properly processed.
-            </p>
-            <div className="mb-5 rounded-full bg-[#007bff] py-1 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">SQL</div>
-          </div>
-        </div>
+  <div className="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+    <img
+      src="QRPH.jpg"
+      alt="QRPH"
+      className="h-full w-full rounded-md md:rounded-lg object-cover"
+    />
+  </div>
+  <div className="p-4">
+    <p className="text-slate-600 text-xl font-light ml-75">
+      February 18, 2025
+    </p>
+    <div className="mb-5 rounded-full bg-[#007bff] py-1 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">
+      WEALTHBANK
+    </div>
+    <h4 className="mb-2 text-slate-800 text-xl font-semibold">
+      QRPH 
+    </h4>
+    <p className="mb-8 text-slate-600 leading-normal font-light">
+      As part of the QRPH team, my primary role is to provide backend support by monitoring system logs and ensuring that all data transmitted from partner banks to WealthBank is accurate, secure, and properly processed.
+    </p>
+
+    
+    <div className="flex gap-2">
+      <div className="rounded-full bg-[#007bff] px-4 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center min-h-[32px] flex items-center justify-center">
+        SQL
+      </div>
+      <div className="rounded-full bg-[#007bff] px-4 border border-transparent text-xs text-white transition-all shadow-sm w-30 text-center min-h-[32px] flex items-center justify-center">
+        Node Express
+      </div>
+    </div>
+  </div>
+</div>
+
 
         <div className="relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl">
           <div className="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
@@ -95,6 +107,9 @@ function Project() {
               </div>
               <div className="rounded-full bg-[#007bff] h-8 min-w-[64px] px-7 border border-transparent text-xs text-white transition-all shadow-sm flex items-center justify-center">
                 SQL
+              </div>
+              <div className="rounded-full bg-[#007bff] h-8 min-w-[64px] px-7 border border-transparent text-xs text-white transition-all shadow-sm flex items-center justify-center">
+                TypeScript
               </div>
             </div>
           </div>
