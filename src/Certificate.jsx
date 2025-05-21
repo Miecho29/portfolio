@@ -10,7 +10,7 @@ const Certificate = () => {
        
          <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
            <Link to="/project" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Projects</Link>
-           <Link to="/resume" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Resume</Link>
+           <Link to="/About" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">About</Link>
            <Link to="/Certificate" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Certificates</Link>
          </div>
        </div>
@@ -24,9 +24,12 @@ const Certificate = () => {
     />
   </div>
   <div class="p-6">
+  <p class="text-slate-600 text-xl font-light ml-80">
+      December 2017
+    </p>
     <div class="mb-5 rounded-full bg-[#A100FF] py-0.5 px-0.5 border border-transparent text-xs text-white transition-all shadow-sm w-25 text-center">ACCENTURE</div>
     <h4 class="mb-2 text-slate-800 text-xl font-semibold">
-     The Hour Of Code (Dec 2017)
+     The Hour Of Code 
     </h4>
     <p class="mb-8 text-slate-600 leading-normal font-light">
       A Program for ICT student to learn the basics of programming. The program was held at Accenture, IT Park Cebu, Philippines. The program was a 1-day event where students learned the basics of programming using code blocks.

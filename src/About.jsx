@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Resume= () => {
+const About= () => {
   return (
     <div className="min-h-screen bg-[#181A1C] text-white font-serif text-xl flex flex-col">
    
@@ -10,7 +10,7 @@ const Resume= () => {
       
         <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
           <Link to="/project" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Projects</Link>
-          <Link to="/resume" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Resume</Link>
+          <Link to="/About" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">About</Link>
           <Link to="/Certificate" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Certificates</Link>
         </div>
       </div>
@@ -21,4 +21,4 @@ const Resume= () => {
   )
 }
 
-export default Resume
+export default About
