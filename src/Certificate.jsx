@@ -5,15 +5,22 @@ const Certificate = () => {
   return (
     <div className="min-h-screen bg-[#181A1C] text-white font-serif text-xl flex flex-col">
    
-        <div className="flex justify-between items-center px-4 md:px-8 py-4 text-sm">
-          <a href="/" className="space-x-4 md:text-base">John Miecho Catalan Arnad</a> 
-       
-         <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
-           <Link to="/project" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Projects</Link>
-           <Link to="/About" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">About</Link>
-           <Link to="/Certificate" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Certificates</Link>
-         </div>
-       </div>
+       <div className="flex justify-between items-center px-4 md:px-8 py-6 text-sm border-b border-gray-700">
+             <a href="/" className="text-lg font-semibold tracking-wide hover:text-gray-300 transition duration-200">
+               John Miecho Catalan Arnad
+             </a>
+             <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
+               <Link to="/project" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+                 Projects
+               </Link>
+               <Link to="/about" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+                 About
+               </Link>
+               <Link to="/certificate" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+                 Certificates
+               </Link>
+             </div>
+           </div>
 
        <div class=" mt-12 ml-16 relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-3xl max-w-4xl">
   <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">

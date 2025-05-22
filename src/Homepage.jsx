@@ -5,25 +5,35 @@ const Homepage = () => {
   return (
     <div className="min-h-screen bg-[#181A1C] text-white font-serif text-xl flex flex-col">
  
-      <div className="flex justify-between items-center px-4 md:px-8 py-4 text-sm">
-        <a href="/" className="space-x-4 md:text-base">John Miecho Catalan Arnad</a>
-        <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
-          <Link to="/project" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Projects</Link>
-          <Link to="/About" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">About</Link>
-          <Link to="/Certificate" className="bg-[#181A1C] text-white px-3 py-1.5 rounded hover:bg-[#2A2D30] transition">Certificates</Link>
-        </div>
-      </div>
+       <div className="flex justify-between items-center px-4 md:px-8 py-6 text-sm border-b border-gray-700">
+             <a href="/" className="text-lg font-semibold tracking-wide hover:text-gray-300 transition duration-200">
+               John Miecho Catalan Arnad
+             </a>
+             <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
+               <Link to="/project" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+                 Projects
+               </Link>
+               <Link to="/about" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+                 About
+               </Link>
+               <Link to="/certificate" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+                 Certificates
+               </Link>
+             </div>
+           </div>
 
      
       <div className="flex flex-col-reverse md:flex-row flex-1 items-center justify-center px-4 md:px-8 space-y-8 md:space-y-0 animate-pop-up-above">
         <div className="max-w-xl text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl font-semibold mb-4">Hi, I’m Miko<span className="text-white">.</span></h1>
-          <p className="text-base md:text-lg text-gray-300 mb-6">
-            A Hard working Fresh Graduate Software Developer and QA from Cebu City, Philippines. I specialize at React JS, Tailwind and Nest JS.
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
+            Hi, I’m <span className="text-teal-400">Miko</span>.
+          </h1> 
+          <p className="text-base md:text-xl text-gray-300 mb-6">
+            A Hard working Fresh Graduate Software Developer and QA from Cebu City, Philippines. I specialize at <span className="text-teal-300">React JS, Tailwind and Nest JS.</span>
           </p>
           <Link
             to="/project"
-            className="bg-indigo-500 hover:bg-[#7C7CFF] text-white px-6 py-3 rounded-full transition inline-block"
+            className="bg-[#1FC6B4] hover:bg-[#17a99a] text-white font-semibold px-6 py-3 rounded-full shadow hover:shadow-teal-500/40 transition duration-300"
           >
             My Projects
           </Link>
@@ -70,11 +80,12 @@ const Homepage = () => {
           </ul>
         </div>
 
-        <div className="w-full md:w-auto flex justify-center">
+      
+        <div className="relative">
           <img
             src="/1000001470.png"
             alt="Miko"
-            className="rounded-b-full h-60 md:h-80 object-cover"
+            className="rounded-full h-60 md:h-80 object-cover shadow-2xl border-4 border-teal-400 transition-transform hover:scale-105 duration-300"
           />
         </div>
       </div>
