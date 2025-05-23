@@ -16,7 +16,7 @@ function Project() {
                  About
                </Link>
                <Link to="/certificate" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
-                 Certificatesddd
+                 Certificates
                </Link>
              </div>
            </div>
