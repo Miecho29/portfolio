@@ -30,7 +30,7 @@ const About = () => {
             I am passionate about software development, with practical experience in building robust applications using <span className="text-teal-300">NestJS</span>, <span className="text-teal-300">ReactJS</span>, and <span className="text-teal-300">SQL</span>. My work focuses on clean code, efficient data management, and delivering user-centric solutions. I thrive on solving complex problems and view software development as a lifelong learning journey.
           </p>
 
-          {/* Button moved to the left */}
+          
           <div className="flex justify-start mt-8">
             <a 
               href="./Resume -John Miecho Arnad.pdf" 

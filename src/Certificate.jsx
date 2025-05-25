@@ -24,7 +24,7 @@ const Certificate = () => {
 
       <div className="mt-12 px-4 md:px-8 flex justify-center">
         <div className="flex flex-col md:flex-row w-full max-w-4xl bg-white shadow-sm border border-slate-200 rounded-3xl overflow-hidden">
-          {/* Image */}
+        
           <div className="relative md:w-2/5">
             <img
               src="Accenture.jpg"
