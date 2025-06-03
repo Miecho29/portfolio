@@ -73,7 +73,7 @@ function Project() {
       WEALTHBANK
     </div>
     <h4 className="mb-2 text-slate-800 text-xl font-semibold">
-      QRPH 
+      QRPH (Payer To Merchant)
     </h4>
     <p className="mb-8 text-slate-600 leading-normal font-light">
       As part of the QRPH team, my primary role is to provide backend support by monitoring system logs and ensuring that all data transmitted from partner banks to WealthBank is accurate, secure, and properly processed.
