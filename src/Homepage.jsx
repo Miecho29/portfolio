@@ -10,13 +10,13 @@ const Homepage = () => {
                John Miecho Catalan Arnad
              </a>
              <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
-               <Link to="/project" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+               <Link to="/project" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
                  Projects
                </Link>
-               <Link to="/about" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+               <Link to="/about" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
                  About
                </Link>
-               <Link to="/certificate" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+               <Link to="/certificate" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
                  Certificates
                </Link>
              </div>
@@ -28,8 +28,8 @@ const Homepage = () => {
         <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
             Hi, I’m <span className="text-teal-400">Miko</span>.
           </h1> 
-          <p className="text-base md:text-xl text-gray-300 mb-6">
-            A Hard working Fresh Graduate Software Developer and QA from Cebu City, Philippines. I specialize at <span className="text-teal-300">React JS, Tailwind and Nest JS.</span>
+         <p className="text-base md:text-xl text-gray-300 mb-6">
+            A hardworking Software Developer and QA from Cebu City, Philippines, specializing in financial technology (FinTech). I specialize in <span className="text-teal-300">React JS, Tailwind, and Nest JS</span>.
           </p>
           <Link
             to="/project"

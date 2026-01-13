@@ -9,13 +9,13 @@ const About = () => {
           John Miecho Catalan Arnad
         </a>
         <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
-          <Link to="/project" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+          <Link to="/project" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
             Projects
           </Link>
-          <Link to="/about" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+          <Link to="/about" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
             About
           </Link>
-          <Link to="/certificate" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+          <Link to="/certificate" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
             Certificates
           </Link>
         </div>
@@ -26,11 +26,12 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
             Hi, I’m <span className="text-teal-400">Miko</span>.
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            I am passionate about software development, with practical experience in building robust applications using <span className="text-teal-300">NestJS</span>, <span className="text-teal-300">ReactJS</span>, and <span className="text-teal-300">SQL</span>. My work focuses on clean code, efficient data management, and delivering user-centric solutions. I thrive on solving complex problems and view software development as a lifelong learning journey.
-          </p>
+         <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+          I’m a passionate Software Developer and QA based in Cebu City, Philippines, with hands-on experience building financial technology (FinTech) applications using <span className="text-teal-300">NestJS</span>, <span className="text-teal-300">ReactJS</span>, <span className="text-teal-300">TypeScript</span>, and <span className="text-teal-300">SQL</span>. I enjoy writing clean, maintainable code, working with data efficiently, and creating reliable solutions that are easy for users to understand and use. I’m motivated by solving challenging problems and continuously improving my skills as I grow in my software development career.
+        </p>
 
-          
+
+          {/* Button moved to the left */}
           <div className="flex justify-start mt-8">
             <a 
               href="./Resume -John Miecho Arnad.pdf" 

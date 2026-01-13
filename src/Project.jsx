@@ -9,13 +9,13 @@ function Project() {
                John Miecho Catalan Arnad
              </a>
              <div className="space-x-2 md:space-x-4 text-xs md:text-sm flex flex-wrap">
-               <Link to="/project" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+               <Link to="/project" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
                  Projects
                </Link>
-               <Link to="/about" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+               <Link to="/about" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
                  About
                </Link>
-               <Link to="/certificate" className="bg-[#181A1C] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
+               <Link to="/certificate" className="bg-[#1F2123] hover:bg-[#2A2D30] text-white px-4 py-2 rounded transition">
                  Certificates
                </Link>
              </div>
@@ -73,7 +73,7 @@ function Project() {
       WEALTHBANK
     </div>
     <h4 className="mb-2 text-slate-800 text-xl font-semibold">
-      QRPH (Payer To Merchant)
+      QRPH 
     </h4>
     <p className="mb-8 text-slate-600 leading-normal font-light">
       As part of the QRPH team, my primary role is to provide backend support by monitoring system logs and ensuring that all data transmitted from partner banks to WealthBank is accurate, secure, and properly processed.
